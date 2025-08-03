@@ -1,6 +1,6 @@
 import os
 import time
-from FSOCIETY.API.main import *
+from FSOCIETY.API1.main import *
 from FSOCIETY.Tools.main import *
 
 def loading():
@@ -105,3 +105,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
