@@ -1,7 +1,6 @@
 import os
 import time
-from FSOCIETY.API1.main import *
-from FSOCIETY.API2.main import *
+from FSOCIETY.API.main import *
 from FSOCIETY.Tools.main import *
 
 def loading():
@@ -82,8 +81,7 @@ def banner():
         [0x04] Telegram  : t.me/cybermads 
           
         
-        [01] | API1
-        [02] | API2
+        [01] | 시작
         [03] | 전화번호 유효성 체크
 """)
 
@@ -98,10 +96,7 @@ def main():
                                         
         if select == "1":
             API1()
-
-        elif select == "2":
-            API2()
-
+            
         elif select == "4":
             vaildcheck()       
     
