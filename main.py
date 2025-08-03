@@ -80,6 +80,11 @@ def banner():
         [0x02] Author    : cybermad
         [0x03] Github    : https://github.com/cybermads
         [0x04] Telegram  : t.me/cybermads 
+          
+        
+        [01] | API1
+        [02] | API2
+        [03] | 전화번호 유효성 체크
 """)
 
 
